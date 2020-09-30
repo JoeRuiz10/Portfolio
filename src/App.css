@@ -13,8 +13,12 @@
   }
 }
 */
+
+.background {
+  background-image: url("./images/title_page_bg.JPG");
+}
+
 .App-header {
-  background-image: url(title_page_bg.JPG);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
