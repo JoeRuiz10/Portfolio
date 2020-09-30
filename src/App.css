@@ -13,12 +13,8 @@
   }
 }
 */
-
-.background {
-  background-image: url("./images/title_page_bg.JPG");
-}
-
 .App-header {
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
