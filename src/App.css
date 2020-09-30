@@ -14,7 +14,7 @@
 }
 */
 .App-header {
-  background-color: #282c34;
+  background-image: url(title_page_bg.JPG);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,3 +37,7 @@
   }
 }
 */
+
+#title {
+  margin-bottom: 40px;
+}
