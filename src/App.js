@@ -1,4 +1,3 @@
-import React from "react";
 import React, { Component } from "react";
 import LandingPage from "./landing_page";
 
