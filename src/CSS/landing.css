@@ -1,0 +1,208 @@
+/* GENERAL
+=========================== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+ion-icon {
+  font-size: 25px;
+}
+
+/* NAVBAR
+=========================== */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  padding: 0 30px;
+  font-size: 20px;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+}
+
+.navbar > div {
+  padding: 0 30px;
+}
+
+.logo {
+  margin: 0 auto 0 38%;
+  font-family: "sansserifexbflf-italic";
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.profile img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* CONTENT
+=========================== */
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  transition: 1s all cubic-bezier(0.87, 0.76, 0.33, 0.98);
+  overflow: hidden;
+}
+
+.split.left {
+  left: 0;
+}
+
+.split.right {
+  right: 0;
+}
+
+.content:hover .split {
+  filter: blur(3px);
+  opacity: 0.5;
+  transform: scale(0.98);
+  box-shadow: none;
+}
+.content:hover .split:hover {
+  transform: scale(1.01);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+}
+
+.Left {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Right {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  width: 600px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s cubic-bezier(0.87, 0.76, 0.33, 0.98);
+}
+
+.text .subtitle {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.text .title {
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "sansserifexbflf-italic";
+  line-height: 1;
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+
+.text .desc {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 2;
+  margin: 10px 0px 30px 15%;
+  width: 400px;
+}
+
+.text .button {
+  font-size: 16px;
+  color: #fff;
+  background: transparent;
+  border: #fff solid 2px;
+  padding: 15px 50px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 100px;
+}
+
+.hover-left .split.left .text {
+  transform: translate(-40%, -50%);
+}
+
+.hover-left .split.right .text {
+  transform: translate(-40%, -50%);
+}
+
+.hover-right .split.right .text {
+  transform: translate(-60%, -50%);
+}
+
+.hover-right .split.left .text {
+  transform: translate(-45%, -50%);
+}
+
+/* SLIDER
+=========================== */
+.slider {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+}
+
+.pages {
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.pages span::after {
+  content: "";
+  display: inline-block;
+  border: 0.5px solid #fff;
+  width: 100px;
+  margin: 0 10px;
+  transform: translateY(-4px);
+}
+
+.arrows {
+  padding: 0 20px;
+}
+
+.arrows ion-icon {
+  font-size: 30px;
+  padding: 0 20px;
+}
