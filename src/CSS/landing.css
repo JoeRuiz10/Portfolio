@@ -58,13 +58,22 @@ ion-icon {
 .content {
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: black; /* idky i cant see this if everything is within content */
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .split {
+  animation: fade 0.5s ease-in-out forwards;
   top: 0;
   position: absolute;
-  margin: 0;
   transition: 1s all cubic-bezier(0.87, 0.76, 0.33, 0.98);
   overflow: hidden;
 }
@@ -158,71 +167,6 @@ ion-icon {
   cursor: pointer;
   outline: none;
   border-radius: 100px;
-}
-
-.hover-left .split.left .text {
-  transform: translate(-40%, -50%);
-}
-
-.hover-left .split.right .text {
-  transform: translate(-40%, -50%);
-}
-
-.hover-right .split.right .text {
-  transform: translate(-60%, -50%);
-}
-
-.hover-right .split.left .text {
-  transform: translate(-45%, -50%);
-}
-
-/* SLIDER
-=========================== */
-.slider {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 80px;
-
-  display: flex;
-  align-items: center;
-}
-
-.pages {
-  padding: 0 20px;
-  font-weight: bold;
-}
-
-.pages span::after {
-  content: "";
-  display: inline-block;
-  border: 0.5px solid #fff;
-  width: 100px;
-  margin: 0 10px;
-  transform: translateY(-4px);
-}
-
-.arrows {
-  padding: 0 20px;
-}
-
-.arrows ion-icon {
-  font-size: 30px;
-  padding: 0 20px;
-}
-
-.hamburger .line {
-  width: 50px;
-  height: 5px;
-  display: block;
-  margin: 8px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.hamburger:hover {
-  cursor: pointer;
 }
 
 #hamburger-6.is-active {
