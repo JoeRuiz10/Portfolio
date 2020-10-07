@@ -72,7 +72,7 @@ ion-icon {
 .split.left {
   left: 0;
   width: 50%;
-  height: 46.9%;
+  height: 100%;
 }
 
 .split.right {
