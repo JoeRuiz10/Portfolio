@@ -20,7 +20,7 @@ class Content extends Component {
           <div className="text">
             <p className="subtitle">Designing</p>
             <h1 className="title">
-              UX/UI <br />
+              UI/UX <br />
             </h1>
             <p className="desc">
               UI/UX Designer with a passion for designing beautiful and
@@ -34,7 +34,8 @@ class Content extends Component {
           <div className="text">
             <p className="subtitle">Coding</p>
             <h1 className="title">
-              Front-End <br />
+              Front-End
+              <br />
             </h1>
             <p className="desc">
               Front End Developer who focuses on writing clean, elegant and

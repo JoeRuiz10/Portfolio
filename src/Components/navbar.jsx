@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import "../CSS/landing.css";
+import {
+  HamburgerArrow,
+  HamburgerSpring,
+  HamburgerVortex,
+} from "react-animated-burgers";
 
 class Navbar extends Component {
   componentDidMount() {
@@ -10,10 +15,24 @@ class Navbar extends Component {
 
     document.body.appendChild(script);
   }
+  state = {
+    isActive: false,
+  };
+
+  toggleButton = () => {
+    this.setState({
+      isActive: !this.state.isActive,
+    });
+  };
 
   render() {
     return (
       <nav className="navbar">
+        <HamburgerSpring
+          isActive={this.state.isActive}
+          toggleButton={this.toggleButton}
+          barColor="white"
+        />
         <div className="logo">
           <i class="fab fa-dev" name="ios-heart" /> Joe Ruiz
         </div>
