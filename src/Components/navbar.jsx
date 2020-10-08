@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import "../CSS/landing.css";
-import {
-  HamburgerArrow,
-  HamburgerSpring,
-  HamburgerVortex,
-} from "react-animated-burgers";
+import { HamburgerSpring } from "react-animated-burgers";
 
 class Navbar extends Component {
   componentDidMount() {
