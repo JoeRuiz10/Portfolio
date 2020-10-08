@@ -20,7 +20,8 @@ class Content extends Component {
           <div className="text">
             <p className="subtitle">Designing</p>
             <h1 className="title">
-              UI/UX <br />
+              UI/UX
+              <br />
             </h1>
             <p className="desc">
               UI/UX Designer with a passion for designing beautiful and

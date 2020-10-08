@@ -81,13 +81,11 @@ ion-icon {
 .split.left {
   left: 0;
   width: 50%;
-  height: 100%;
 }
 
 .split.right {
   right: 0;
   width: 50%;
-  height: 100%;
 }
 
 .content:hover .split {
@@ -120,21 +118,21 @@ ion-icon {
 }
 
 .text {
-  width: 100%;
+  width: 50vw;
   position: absolute;
-  top: 50%;
+  top: 25%;
   transition: all 1s cubic-bezier(0.87, 0.76, 0.33, 0.98);
 }
 
 .text .subtitle {
-  font-size: 16px;
+  font-size: 0.8vw;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 2px;
 }
 
 .text .title {
-  font-size: 80px;
+  font-size: 4vw;
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
@@ -145,12 +143,13 @@ ion-icon {
 }
 
 .text .desc {
-  font-size: 14px;
+  font-size: 0.7vw;
   color: #fff;
   font-weight: 300;
   line-height: 2;
-  margin: 10px 0px 30px 15%;
-  width: 400px;
+  width: 28em;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .text .button {
