@@ -22,7 +22,7 @@ ion-icon {
   position: absolute;
   width: 100vw;
   padding: 0 30px;
-  z-index: 1;
+  z-index: 2;
 
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@ ion-icon {
   background-color: black; /* <----- idky i cant see this if everything is within content */
 }
 
-@keyframes fade {
+@keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -62,8 +62,10 @@ ion-icon {
 }
 
 .split {
-  animation: fade 0.5s ease-in-out forwards;
+  animation: fadeIn 0.5s ease-in-out forwards;
   top: 0;
+  height: fit-content;
+  max-height: 100vh;
   position: absolute;
   transition: 1s all cubic-bezier(0.87, 0.76, 0.33, 0.98);
   overflow: hidden;
@@ -81,9 +83,8 @@ ion-icon {
 }
 
 .content:hover .split {
-  filter: blur(3px);
-  opacity: 0.5;
-  transform: scale(0.98);
+  filter: blur(4px);
+  transform: scale(1);
   box-shadow: none;
 }
 
@@ -91,6 +92,7 @@ ion-icon {
   transform: scale(1.02);
   filter: blur(0px);
   opacity: 1;
+  z-index: 1;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
 }
 
