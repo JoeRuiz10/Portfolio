@@ -1,5 +1,4 @@
-/* GENERAL
-=========================== */
+/* GENERAL =========================== */
 * {
   padding: 0;
   margin: 0;
@@ -18,8 +17,7 @@ ion-icon {
   font-size: 25px;
 }
 
-/* NAVBAR
-=========================== */
+/* NAVBAR =========================== */
 .navbar {
   position: absolute;
   top: 0;
@@ -44,6 +42,7 @@ ion-icon {
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: white;
 }
 
 .profile img {
@@ -53,12 +52,12 @@ ion-icon {
   border-radius: 50%;
 }
 
-/* CONTENT
-=========================== */
+/* CONTENT=========================== */
+
 .content {
   width: 100%;
   height: 100%;
-  background-color: black; /* idky i cant see this if everything is within content */
+  background-color: black; /* <----- idky i cant see this if everything is within content */
 }
 
 @keyframes fade {
@@ -76,6 +75,7 @@ ion-icon {
   position: absolute;
   transition: 1s all cubic-bezier(0.87, 0.76, 0.33, 0.98);
   overflow: hidden;
+  /* Background color goes here for image container */
 }
 
 .split.left {
@@ -104,27 +104,25 @@ ion-icon {
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
 }
 
+.Left .Right {
+  height: 100%;
+  object-fit: cover;
+}
+
 .Left {
+  object-position: right center;
   width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .Right {
+  object-position: left center;
   width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .text {
   width: 100%;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   transition: all 1s cubic-bezier(0.87, 0.76, 0.33, 0.98);
 }
 
