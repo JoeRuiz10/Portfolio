@@ -4,6 +4,7 @@ import "./App.css";
 import Button from "react-bootstrap/Button";
 import NavBar from "./Components/navbar";
 import Content from "./Components/content";
+import Socials from "./Components/socials";
 
 class LandingPage extends Component {
   render() {
@@ -11,6 +12,7 @@ class LandingPage extends Component {
       <div>
         <NavBar />
         <Content />
+        <Socials />
       </div>
     );
   }
