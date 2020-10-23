@@ -14,7 +14,7 @@ class Content extends Component {
   }
   render() {
     return (
-      <div className="content">
+      <div className="row content">
         <div className="split left">
           <img src={LeftLanding} alt="" className="Left" />
           <div className="text">
@@ -27,7 +27,7 @@ class Content extends Component {
               UI/UX Designer with a passion for designing beautiful and
               functional user experiences.
             </p>
-            <button className="button">View Projects</button>
+            <button className="button">View Work</button>
           </div>
         </div>
         <div className="split right">
@@ -42,7 +42,7 @@ class Content extends Component {
               Front End Developer who focuses on writing clean, elegant and
               efficient code.
             </p>
-            <button className="button">View Projects</button>
+            <button className="button">View Work</button>
           </div>
         </div>
       </div>

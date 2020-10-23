@@ -46,9 +46,10 @@ ion-icon {
 
 /* CONTENT=========================== */
 
-.content {
+.content .row {
+  margin: 0px;
+  height: fit-content;
   width: 100vw;
-  height: 775px;
   background-color: black; /* <----- idky i cant see this if everything is within content */
 }
 
@@ -64,8 +65,7 @@ ion-icon {
 .split {
   animation: fadeIn 0.5s ease-in-out forwards;
   top: 0;
-  max-height: 90vh;
-  position: absolute;
+  max-height: 100vh;
   transition: 1s all cubic-bezier(0.87, 0.76, 0.33, 0.98);
   overflow: hidden;
   background-color: black;
