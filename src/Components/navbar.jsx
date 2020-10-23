@@ -23,7 +23,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar">
+      <nav className="navbar navbar-fixed-top">
         <HamburgerSpring
           isActive={this.state.isActive}
           toggleButton={this.toggleButton}

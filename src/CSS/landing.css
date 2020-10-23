@@ -19,7 +19,7 @@ ion-icon {
 
 /* NAVBAR =========================== */
 .navbar {
-  position: sticky;
+  position: absolute;
   width: 100vw;
   padding: 0 30px;
   z-index: 2;
@@ -48,9 +48,9 @@ ion-icon {
 
 .content .row {
   margin: 0px;
+  top: 0px;
   height: fit-content;
   width: 100vw;
-  background-color: black; /* <----- idky i cant see this if everything is within content */
 }
 
 @keyframes fadeIn {

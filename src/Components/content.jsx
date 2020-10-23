@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../CSS/landing.css";
 import LeftLanding from "../images/left-landing.jpg";
 import RightLanding from "../images/right-landing.jpg";
+import NavBar from "./navbar";
 
 class Content extends Component {
   componentDidMount() {
@@ -14,6 +15,8 @@ class Content extends Component {
   }
   render() {
     return (
+      <div>
+      <NavBar />
       <div className="row content">
         <div className="split left">
           <img src={LeftLanding} alt="" className="Left" />
@@ -45,6 +48,7 @@ class Content extends Component {
             <button className="button">View Work</button>
           </div>
         </div>
+      </div>
       </div>
     );
   }
