@@ -14,7 +14,7 @@ class Socials extends Component {
           <link className="fab fa-github"></link>
         </span>
         <span>
-        <link className="fab fa-linkedin"></link>
+        <link className="fab fa-linkedin-in"></link>
         </span>
         <span>
         <link className="fab fa-youtube"></link>

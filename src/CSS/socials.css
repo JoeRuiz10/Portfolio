@@ -1,10 +1,13 @@
 .row {
   background-color: black;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 .fab {
   font-size: 5em;
   margin: 0px 10px 0px 10px;
+  color: lightslategray;
 }
 
 .fab:hover {

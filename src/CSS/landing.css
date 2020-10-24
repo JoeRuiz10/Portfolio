@@ -65,7 +65,7 @@ ion-icon {
 .split {
   animation: fadeIn 0.5s ease-in-out forwards;
   top: 0;
-  max-height: 100vh;
+  max-height: 90vh;
   transition: 1s all cubic-bezier(0.87, 0.76, 0.33, 0.98);
   overflow: hidden;
   background-color: black;
