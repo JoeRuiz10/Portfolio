@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button";
 import NavBar from "./Components/navbar";
 import Content from "./Components/content";
 import Socials from "./Components/socials";
+import Footer from "./Components/footer"
 
 class LandingPage extends Component {
   render() {

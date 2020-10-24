@@ -2,10 +2,11 @@
   background-color: black;
 }
 
-.btn {
-  margin: 20px;
+.fab {
+  font-size: 5em;
+  margin: 0px 10px 0px 10px;
 }
 
-.btn:hover {
-  background-color: green;
+.fab:hover {
+  color: green;
 }
