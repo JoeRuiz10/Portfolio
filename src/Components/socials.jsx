@@ -11,22 +11,22 @@ class Socials extends Component {
     return (
       <div className="row container-fluid justify-content-center">
         <span>
-          <link className="fab fa-github"></link>
+          <link className="fab fa-github" href="https://github.com/Jruiz10"></link>
         </span>
         <span>
-        <link className="fab fa-linkedin-in"></link>
+        <link className="fab fa-linkedin-in" href="https://www.linkedin.com/in/josephsruiz/"></link>
         </span>
         <span>
-        <link className="fab fa-youtube"></link>
+        <link className="fab fa-youtube" href="https://www.youtube.com/channel/UC2jtCZU0oRqI9dUM4H_oZJA?view_as=subscriber"></link>
         </span>
         <span>
-        <link className="fab fa-instagram"></link>
+        <link className="fab fa-instagram" href="https://www.instagram.com/acupof.joe/"></link>
         </span>
         <span>
-        <link className="fab fa-facebook-f"></link>
+        <link className="fab fa-facebook-f" href="https://www.facebook.com/profile.php?id=100004866738900"></link>
         </span>
         <span>
-        <link className="fab fa-twitter"></link>
+        <link className="fab fa-twitter" href="https://twitter.com/acupof__joe"></link>
         </span>
       </div>
     );

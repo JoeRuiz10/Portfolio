@@ -29,6 +29,9 @@ class Navbar extends Component {
           toggleButton={this.toggleButton}
           barColor="white"
         />
+        <div className="logo">
+          <i/> Joe Ruiz
+        </div>
       </nav>
     );
   }
