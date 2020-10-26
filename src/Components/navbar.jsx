@@ -28,9 +28,20 @@ class Navbar extends Component {
           isActive={this.state.isActive}
           toggleButton={this.toggleButton}
           barColor="white"
-        />
+        >
+          <a className="menu-item" href="/">
+            Home
+          </a>
+          <a className="menu-item" href="/salads">
+            Contact
+          </a>
+          <a className="menu-item" href="/pizzas">
+            Resume
+          </a>
+        </HamburgerSpring>
+
         <div className="logo">
-          <i/> Joe Ruiz
+          <i /> Joe Ruiz
         </div>
       </nav>
     );

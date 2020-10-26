@@ -5,31 +5,61 @@
 }
 
 .fab {
-  font-size: 5rem;
+  font-size: 4vw;
   margin: 20px 20px 20px 20px;
-  color: lightslategray;
+  color: rgb(115, 131, 147);
 }
 
 #github:hover {
   color: #ffffff;
+  text-shadow: 0px 0px 3px #ffffff;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 #linkedin:hover {
   color: #0372b1;
+  text-shadow: 0px 0px 3px #0372b1;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 #youtube:hover {
   color: #ff0000;
+  text-shadow: 0px 0px 3px #ff0000;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 #instagram:hover {
   color: white;
+  text-shadow: 0px 0px 3px white;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 #facebook:hover {
   color: #1a76f2;
+  text-shadow: 0px 0px 3px #1a76f2;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 #twitter:hover {
   color: #1fa2f1;
+  text-shadow: 0px 0px 3px #1fa2f1;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
