@@ -49,6 +49,7 @@ ion-icon {
 .content .row {
   margin: 0px;
   height: fit-content;
+  position: relative;
   width: 100vw;
   background-color: black; /* <----- idky i cant see this if everything is within content */
 }
