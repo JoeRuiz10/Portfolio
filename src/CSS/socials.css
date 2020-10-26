@@ -10,6 +10,26 @@
   color: lightslategray;
 }
 
-.fab:hover {
-  color: green;
+#github:hover {
+  color: #ffffff;
+}
+
+#linkedin:hover {
+  color: #0372b1;
+}
+
+#youtube:hover {
+  color: #ff0000;
+}
+
+#instagram:hover {
+  color: white;
+}
+
+#facebook:hover {
+  color: #1a76f2;
+}
+
+#twitter:hover {
+  color: #1fa2f1;
 }
