@@ -47,7 +47,6 @@ ion-icon {
 /* CONTENT=========================== */
 
 .row {
-  margin: 0px;
   height: fit-content;
   position: relative;
   width: 100vw;
@@ -55,7 +54,7 @@ ion-icon {
 }
 
 .content {
-  margin: 0px;
+  position: relative;
 }
 
 @keyframes fadeIn {
