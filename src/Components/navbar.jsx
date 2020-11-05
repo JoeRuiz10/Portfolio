@@ -32,10 +32,10 @@ class Navbar extends Component {
           <a className="menu-item" href="/">
             Home
           </a>
-          <a className="menu-item" href="/salads">
+          <a className="menu-item" href="/Contact">
             Contact
           </a>
-          <a className="menu-item" href="/pizzas">
+          <a className="menu-item" href="/Resume">
             Resume
           </a>
         </HamburgerSpring>

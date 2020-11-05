@@ -16,39 +16,39 @@ class Content extends Component {
   render() {
     return (
       <div>
-      <NavBar style={{ zIndex : 10}} />
-      <div className="row content">
-        <div className="split left">
-          <img src={LeftLanding} alt="" className="Left" />
-          <div className="text">
-            <p className="subtitle">Designing</p>
-            <h1 className="title">
-              UI/UX
-              <br />
-            </h1>
-            <p className="desc">
-              UI/UX Designer with a passion for designing beautiful and
-              functional user experiences.
-            </p>
-            <button className="button">View Work</button>
+        <NavBar style={{ zIndex: 10 }} />
+        <div className="row content">
+          <div className="split left">
+            <img src={LeftLanding} alt="" className="Left" />
+            <div className="text">
+              <p className="subtitle">Videographer</p>
+              <h1 className="title">
+                Creator
+                <br />
+              </h1>
+              <p className="desc">
+                Professional video shooting and editing using industry standard
+                programs.
+              </p>
+              <button className="button">View Work</button>
+            </div>
+          </div>
+          <div className="split right">
+            <img src={RightLanding} alt="" className="Right" />
+            <div className="text">
+              <p className="subtitle">Programmer</p>
+              <h1 className="title">
+                Developer
+                <br />
+              </h1>
+              <p className="desc">
+                Full stack Developer who focuses on writing clean, elegant and
+                efficient code.
+              </p>
+              <button className="button">View Work</button>
+            </div>
           </div>
         </div>
-        <div className="split right">
-          <img src={RightLanding} alt="" className="Right" />
-          <div className="text">
-            <p className="subtitle">Coding</p>
-            <h1 className="title">
-              Front-End
-              <br />
-            </h1>
-            <p className="desc">
-              Front End Developer who focuses on writing clean, elegant and
-              efficient code.
-            </p>
-            <button className="button">View Work</button>
-          </div>
-        </div>
-      </div>
       </div>
     );
   }
