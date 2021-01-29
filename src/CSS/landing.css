@@ -113,7 +113,7 @@ ion-icon {
 .text {
   width: 50vw;
   position: absolute;
-  top: 25%;
+  top: 35%;
   transition: all 1s cubic-bezier(0.87, 0.76, 0.33, 0.98);
 }
 
