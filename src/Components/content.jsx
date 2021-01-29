@@ -16,7 +16,6 @@ class Content extends Component {
   render() {
     return (
       <div>
-        <NavBar style={{ zIndex: 10 }} />
         <div className="row content">
           <div className="split left">
             <img src={LeftLanding} alt="" className="Left" />
