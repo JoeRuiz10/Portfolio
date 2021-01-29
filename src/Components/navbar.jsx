@@ -24,7 +24,6 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-fixed-top">
-
         <div className="logo">
           <i /> Joe Ruiz
         </div>
