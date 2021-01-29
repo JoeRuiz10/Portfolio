@@ -24,21 +24,6 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-fixed-top">
-        <HamburgerSpring
-          isActive={this.state.isActive}
-          toggleButton={this.toggleButton}
-          barColor="white"
-        >
-          <a className="menu-item" href="/">
-            Home
-          </a>
-          <a className="menu-item" href="/Contact">
-            Contact
-          </a>
-          <a className="menu-item" href="/Resume">
-            Resume
-          </a>
-        </HamburgerSpring>
 
         <div className="logo">
           <i /> Joe Ruiz

@@ -3,6 +3,7 @@ import "../CSS/landing.css";
 import LeftLanding from "../images/left-landing.jpg";
 import RightLanding from "../images/right-landing.jpg";
 import NavBar from "./navbar";
+import Socials from "./socials";
 
 class Content extends Component {
   componentDidMount() {
@@ -16,6 +17,7 @@ class Content extends Component {
   render() {
     return (
       <div>
+        <NavBar style={{ zIndex: 10 }} />
         <div className="row content">
           <div className="split left">
             <img src={LeftLanding} alt="" className="Left" />
