@@ -23,7 +23,6 @@ class Content extends Component {
             <img src={LeftLanding} alt="" className="Left" />
             <div className="text">
               <p className="subtitle">Videographer</p>
-              <hr style={{width: '50%', textAlign: 'left', marginLeft: 0, color: 'white'}} />
               <h1 className="title">
                 Creator
                 <br />

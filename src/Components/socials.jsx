@@ -11,22 +11,25 @@ class Socials extends Component {
     return (
       <div className="row container-fluid justify-content-center">
         <span>
-          <a id="github" className="fab fa-github" href="https://github.com/Jruiz10"  style={{ textDecoration: 'none' }} ></a>
+          <a id="github" className="fab fa-github" href="https://github.com/Jruiz10" target="_blank" style={{ textDecoration: 'none' }} ></a>
         </span>
         <span>
-        <a id="linkedin" className="fab fa-linkedin-in" href="https://www.linkedin.com/in/josephsruiz/" style={{ textDecoration: 'none' }} ></a>
+        <a id="linkedin" className="fab fa-linkedin-in" href="https://www.linkedin.com/in/josephsruiz/" target="_blank" style={{ textDecoration: 'none' }} ></a>
         </span>
         <span>
-        <a id="youtube" className="fab fa-youtube" href="https://www.youtube.com/channel/UC2jtCZU0oRqI9dUM4H_oZJA?view_as=subscriber" style={{ textDecoration: 'none' }}></a>
+        <a id="youtube" className="fab fa-youtube" href="https://www.youtube.com/channel/UC2jtCZU0oRqI9dUM4H_oZJA?view_as=subscriber" target="_blank" style={{ textDecoration: 'none' }}></a>
         </span>
         <span>
-        <a id="instagram" className="fab fa-instagram" href="https://www.instagram.com/acupof.joe/" style={{ textDecoration: 'none' }}></a>
+        <a id="instagram" className="fab fa-instagram" href="https://www.instagram.com/acupof.joe/" target="_blank" style={{ textDecoration: 'none' }}></a>
         </span>
         <span>
-        <a id="facebook" className="fab fa-facebook-f" href="https://www.facebook.com/profile.php?id=100004866738900" style={{ textDecoration: 'none' }}></a>
+        <a id="facebook" className="fab fa-facebook-f" href="https://www.facebook.com/profile.php?id=100004866738900" target="_blank" style={{ textDecoration: 'none' }}></a>
         </span>
         <span>
-        <a id="twitter" className="fab fa-twitter" href="https://twitter.com/acupof__joe" style={{ textDecoration: 'none' }}></a>
+        <a id="twitter" className="fab fa-twitter" href="https://twitter.com/acupof__joe" target="_blank" style={{ textDecoration: 'none' }}></a>
+        </span>
+        <span>
+        <a id="github" className="fas fa-file" href="./images/resume.pdf" download="Joe Ruiz Resume" style={{ textDecoration: 'none' }} ></a>
         </span>
       </div>
     );

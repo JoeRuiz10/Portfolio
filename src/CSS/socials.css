@@ -10,6 +10,12 @@
   color: rgb(115, 131, 147);
 }
 
+.fas {
+  font-size: 4vw;
+  margin: 20px 20px 20px 20px;
+  color: rgb(115, 131, 147);
+}
+
 #github:hover {
   color: #ffffff;
   text-shadow: 0px 0px 3px #ffffff;
