@@ -29,7 +29,7 @@ class Socials extends Component {
         <a id="twitter" className="fab fa-twitter" href="https://twitter.com/acupof__joe" target="_blank" style={{ textDecoration: 'none' }}></a>
         </span>
         <span>
-        <a id="github" className="fas fa-file" href="./images/resume.pdf" download="Joe Ruiz Resume" style={{ textDecoration: 'none' }} ></a>
+        <a id="github" className="fas fa-file" href="https://quinnipiacuniversity-my.sharepoint.com/:b:/g/personal/jsruiz_quinnipiac_edu/ESAPBbbfzqlBi9J2VCSCyJUBoptraVn-rCZ6p1xWL5EnKQ?e=ymqW2W" target="_blank" style={{ textDecoration: 'none' }} ></a>
         </span>
       </div>
     );
