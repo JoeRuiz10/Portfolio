@@ -111,6 +111,7 @@ ion-icon {
 }
 
 .text {
+  text-align: center;
   width: 50vw;
   position: absolute;
   top: 35%;

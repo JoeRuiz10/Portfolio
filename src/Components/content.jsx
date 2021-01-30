@@ -4,6 +4,7 @@ import LeftLanding from "../images/left-landing.jpg";
 import RightLanding from "../images/right-landing.jpg";
 import NavBar from "./navbar";
 import Socials from "./socials";
+import {Link } from "react-router-dom";
 
 class Content extends Component {
   componentDidMount() {
@@ -31,7 +32,7 @@ class Content extends Component {
                 Professional video shooting and editing using industry standard
                 programs.
               </p>
-              <button className="button">View Work</button>
+              <Link to="/creator"><button className="button">View Work</button></Link>
             </div>
           </div>
           <div className="split right">
@@ -46,7 +47,7 @@ class Content extends Component {
                 Full stack Developer who focuses on writing clean, elegant and
                 efficient code.
               </p>
-              <button className="button">View Work</button>
+              <Link to="/developer"><button className="button">View Work</button></Link>
             </div>
           </div>
         </div>

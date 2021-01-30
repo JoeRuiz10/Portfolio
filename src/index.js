@@ -4,11 +4,20 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+import LandingPage from "./landing_page";
+import Creator from "./creator";
+import Developer from "./developer";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+       <Switch>
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/creator" component={Creator} />
+        <Route path="/developer" component={Developer} />
+      </Switch>
+      </BrowserRouter>,
   document.getElementById("root")
 );
 

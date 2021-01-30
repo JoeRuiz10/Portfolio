@@ -1,0 +1,5 @@
+h1 {
+    text-align: center;
+    margin-top: 40vh;
+    animation: fade-in .5s timing-function .3 iteration-count linear fill-mode;
+}
