@@ -7,6 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -25,7 +26,15 @@ jobs:
         env:
           NODE_OPTIONS: --openssl-legacy-provider
           CI: false
-          
+
+      - name: Verify build
+        run: |
+          echo "=== BUILD CONTENTS ==="
+          find build -type f
+          echo ""
+          echo "=== INDEX.HTML ==="
+          cat build/index.html
+
       - name: Authenticate to GCP
         uses: google-github-actions/auth@v2
         with:
@@ -35,4 +44,10 @@ jobs:
         uses: google-github-actions/setup-gcloud@v2
 
       - name: Deploy to GCS
-        run: gsutil -m rsync -r -d build gs://${{ secrets.GCS_BUCKET_NAME }}
+        run: |
+          gcloud storage rsync build gs://${{ secrets.GCS_BUCKET_NAME }} --recursive --delete-unmatched-destination-objects
+
+      - name: Verify GCS files
+        run: |
+          echo "=== FILES IN BUCKET ==="
+          gcloud storage ls --recursive gs://${{ secrets.GCS_BUCKET_NAME }}
